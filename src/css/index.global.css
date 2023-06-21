@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  font-family: 'Nunito', Helvetica, sans-serif;;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+:root {
+  --black: #000;
+  --black-text: #1D1D1D;
+  --white: #fff;
+  --gray-83: #838383;
+  --gray-D3: #D3D3D3;
+  --gray-D2: #D2D2D2;
+  --gray-F5: #F5F5F5;
+  --gray-transp: rgba(211, 211, 211, .9);
+  --blue: #0053CF;
+  --blue-med: #3C86F4;
+  --blue-15: rgba(60, 134, 244, 0.15);
+  --blue-35: rgba(60, 134, 244, 0.35);
+  --blue-60: rgba(60, 134, 244, 0.6);
+  --blue-80: rgba(60, 134, 244, 0.8);
+  --violet: #9747FF;
+  --violet-light: #E8D7FF;
+  --green: #639462;
+  --green-light: #E2F7E2;
+  --orange: #EA8C00;
+  --orange-light: #FFECC7;
+}
+
+.invalid {
+  border: 1px solid red !important;
+}

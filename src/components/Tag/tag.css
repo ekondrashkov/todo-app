@@ -1,0 +1,97 @@
+.button.tag, .tag {
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  user-select: none;
+  text-align: center;
+}
+
+.tag_health {
+  background-color: var(--blue-35);
+  color: var(--blue);
+  border: 1px solid transparent;
+}
+
+.tag_work {
+  background-color: var(--violet-light);
+  color: var(--violet);
+  border: 1px solid transparent;
+}
+
+.tag_home {
+  background-color: var(--green-light);
+  color: var(--green);
+  border: 1px solid transparent;
+}
+
+.tag_other {
+  background-color: var(--orange-light);
+  color: var(--orange);
+  border: 1px solid transparent;
+}
+
+.tag_all {
+  background-color: var(--gray-F5);
+  color: var(--gray-83);
+  border: 1px solid transparent;
+}
+
+.tag_health:focus,
+.tag_health:active  {
+  background-color: var(--blue-35);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.tag_work:focus,
+.tag_work:active {
+  background-color: var(--violet-light);
+  color: var(--violet);
+  border: 1px solid var(--violet);
+}
+
+.tag_home:focus,
+.tag_home:active {
+  background-color: var(--green-light);
+  color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.tag_other:focus,
+.tag_other:active {
+  background-color: var(--orange-light);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.tag_health_active  {
+  background-color: var(--blue-35);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.tag_work_active {
+  background-color: var(--violet-light);
+  color: var(--violet);
+  border: 1px solid var(--violet);
+}
+
+.tag_home_active {
+  background-color: var(--green-light);
+  color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.tag_other_active {
+  background-color: var(--orange-light);
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.tag_all_active {
+  background-color: var(--gray-F5);
+  color: var(--gray-83);
+  border: 1px solid var(--gray-83);
+}

@@ -1,0 +1,17 @@
+.input {
+    width: 100%;
+    padding: 16px 21px;
+    background-color: var(--gray-F5);
+    border: 1px solid var(--gray-D2);
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black);
+    transition: border .2s ease-in-out;
+  }
+  
+  .input:focus,
+  .input:hover {
+    border: 1px solid var(--blue-60);
+  }

@@ -1,0 +1,27 @@
+
+.geo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .geoWeather {
+    display: flex;
+    align-items: center;
+    column-gap: 23px;
+    margin-right: 120px;
+  }
+  
+  .geoWeatherDegree {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--black);
+  }
+  
+  .geoCity {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--gray-83);
+  }
+  

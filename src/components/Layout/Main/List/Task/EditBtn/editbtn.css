@@ -1,0 +1,13 @@
+.editTaskBtn svg {
+  fill: var(--gray-83);
+  transition: fill .2s ease-in-out;
+}
+
+.editTaskBtn:hover svg,
+.editTaskBtn:focus svg {
+  fill: var(--blue-60);
+}
+
+.editTaskBtn:active svg {
+  fill: var(--blue);
+}

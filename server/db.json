@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "name": "Item 1",
+      "id": "2gmhn9v3yfd",
+      "isDone": false,
+      "tag": "work",
+      "date": "19.05.2023"
+    },
+    {
+      "name": "Item 2",
+      "id": "7heb4j0ygro",
+      "isDone": false,
+      "tag": "health",
+      "date": "09.05.2023"
+    },
+    {
+      "name": "Item 3",
+      "id": "cyfsyi46gik",
+      "isDone": true,
+      "tag": "other",
+      "date": "05.05.2023"
+    }
+  ]
+}
